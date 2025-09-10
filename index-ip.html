@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaTech Industry</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-base-100">
+
+  <!-- Navbar -->
+  <div class="navbar bg-white shadow-md sticky top-0 z-50">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+          </svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Homepage</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a class="btn btn-ghost text-xl font-bold">NovaTech Industry</a>
+    </div>
+    <div class="navbar-end flex gap-2">
+      <button class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </button>
+      <button class="btn btn-ghost btn-circle">
+        <div class="indicator">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+          </svg>
+          <span class="badge badge-xs badge-primary indicator-item"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content text-center">
+      <div class="max-w-xl">
+        <h1 class="text-5xl font-extrabold">Selamat Datang!!</h1>
+        <p class="py-6 text-gray-600">
+          Ini adalah situs perbelanjaan NovaTech terpercaya. Kami menjual berbagai alat digital dengan harga
+          terjangkau dan kualitas terbaik. Jangan ragu untuk belanja di sini!
+        </p>
+        <div class="flex justify-center gap-4">
+          <button class="btn btn-primary">Lihat Produk</button>
+          <button class="btn btn-outline">Tentang Kami</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="py-16">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Tentang NovaTech</h2>
+        <p class="text-gray-600 leading-relaxed">
+          NovaTech Industry sudah beroperasi selama 10 tahun. Kami berhasil mengembangkan berbagai alat canggih
+          dengan desain modern dan menarik. Perusahaan ini mendapat rating 4.7 bintang dari pelanggan setia.
+        </p>
+      </div>
+      <img src="yy.png" alt="NovaTech Factory" class="rounded-lg shadow-lg hover:scale-105 transition">
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="py-16 bg-base-200">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-8">Produk Populer</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Product Card -->
+        <div class="card bg-white shadow-lg hover:shadow-xl transition">
+          <figure><img src="cooookkkk.png" alt="Drone" class="h-56 w-full object-cover"></figure>
+          <div class="card-body">
+            <h3 class="card-title">Air Base Drone</h3>
+            <p>Drone canggih dengan jarak tempuh 10km dan durasi terbang 1,5 jam.</p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="font-bold">£17.000.000</span>
+              <button class="btn btn-sm btn-primary">Beli</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white shadow-lg hover:shadow-xl transition">
+          <figure><img src="mm.png" alt="Robot AI" class="h-56 w-full object-cover"></figure>
+          <div class="card-body">
+            <h3 class="card-title">Robot AI</h3>
+            <p>Robot pintar berbasis AI dengan desain futuristik.</p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="font-bold">£24.000.000</span>
+              <button class="btn btn-sm btn-primary">Beli</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white shadow-lg hover:shadow-xl transition">
+          <figure><img src="oo.png" alt="Laptop" class="h-56 w-full object-cover"></figure>
+          <div class="card-body">
+            <h3 class="card-title">Laptop Nova X</h3>
+            <p>Laptop performa tinggi, dirancang khusus untuk profesional.</p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="font-bold">£15.000.000</span>
+              <button class="btn btn-sm btn-primary">Beli</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rating -->
+  <div class="my-12 text-center">
+    <div class="rating rating-lg">
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+    </div>
+    <p class="mt-2 text-gray-500">4.7 dari 5 berdasarkan 2000+ ulasan</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-neutral text-neutral-content p-10">
+    <aside>
+      <h2 class="text-lg font-bold">NovaTech Industries</h2>
+      <p>Providing reliable tech since 1992</p>
+    </aside> 
+    <nav>
+      <h6 class="footer-title">Services</h6> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Company</h6> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Legal</h6> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
